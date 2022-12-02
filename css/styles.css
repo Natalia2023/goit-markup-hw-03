@@ -1,0 +1,194 @@
+  /* основной цвет текста #434455 */
+    /*  вторичний текст текста #2E2F42*/
+    /* вторичній цвет фона #F4F4FD */
+    /* основной цвет фона #E5E5E5 */
+    /* цвет лого #4D5AE5 */
+    /* цвет логос #2E2F42 */
+    /* стилизируем основной боди, задаем основной цвет и осн.фон */
+    /* фон адреса та емейл #434455 */
+    /* змінні */
+    html {
+      box-sizing: border-box;
+    }
+     *,
+     *::before,
+     *::after {
+  box-sizing: border-box;
+}
+    :root {
+      --paragraph-primary-color: #434455;
+      --title-primary-color: #2E2F42;
+      --title-secondary-color: #ffffff;
+      --brand-color: #4D5AE5;
+      --background-primary-color: #ffffff;
+      --nav-link-color:#2E2F42;
+      --contacts-link-color:#434455;
+      --link-hover-color: #4D5AE5;
+      --background-color-page: #FFFFFF;
+    }
+
+    .container {
+      width: 1230px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin: 0 auto;
+      outline: 2px solid tomato;
+
+    }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+    
+    body {
+        color: var(--paragraph-primary-color);
+            letter-spacing: 0.015em;
+    }
+/* убираем подчеркивание ссилки */
+    .no-decoration . {
+      text-decoration: none;
+    }
+
+     /* прибираємо чорні точки */
+     ul {
+      list-style: none;
+    }
+
+    /* стилізуємо лого */
+    .logo {
+      color: var(--brand-color);
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 0.02em;
+      text-decoration: none;
+    }
+    .logos {
+      color: var(--nav-link-color);
+      text-decoration: none;
+    }
+
+    .foter-decoration .akcent {
+      color: var(--title-secondary-color);
+    }
+
+   
+      /* Novigation */
+
+    .nav-link {
+      color: var(--title-primary-color);
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 0.02em;
+      text-decoration: none;
+    }
+   
+    .contacts-link {
+      color: #434455;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5em;   
+      letter-spacing: 0.02em;
+      text-decoration: none;
+     }
+
+.contacts-link:hover,
+.contacts-link:focus,
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--link-hover-color);
+}
+ 
+
+/* Hero */
+.hero-title {
+font-weight: 600;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--background-color-page);
+background: #2E2F42
+}
+
+.hero-btn {
+color: var(--background-primary-color);
+background: var(--brand-color);
+
+font-weight: 600;
+font-size: 16px;
+line-height: 1.19em;
+}
+
+/* Features section */
+
+.item-title {
+  color: var(--title-primary-color);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2em;
+  letter-spacing: 0.02em;
+}
+
+.description {
+font-size: 16px;
+line-height: 1.5em;
+letter-spacing: 0.02em;
+}
+
+/*    <!--section works--> */
+.works-link {
+  box-sizing: border-box;
+  width: 360px;
+  height: 300px;
+}
+
+.foter-decoration {
+width: 1440px;
+height: 310px;
+left: 0px;
+top: 2283px;
+background: #2E2F42;
+}
+
+.foter-decoration .description {
+  color: var(--title-secondary-color);
+}
+
+/* portfolio */
+.portfolio-filter-bnt:hover,
+.portfolio-filter-bnt:focus {
+  background: var(--link-hover-color);
+  color: var(--background-primary-color);
+}
+.portfolio-filter-bnt {
+  color: #4D5AE5;
+  background-color: #f4f4fd;
+  font-family: 'Roboto';
+  
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+
+}
+
+.portfolio-link {
+  text-decoration: none;
+}

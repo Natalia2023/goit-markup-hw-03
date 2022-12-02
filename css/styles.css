@@ -7,14 +7,7 @@
     /* стилизируем основной боди, задаем основной цвет и осн.фон */
     /* фон адреса та емейл #434455 */
     /* змінні */
-    html {
-      box-sizing: border-box;
-    }
-     *,
-     *::before,
-     *::after {
-  box-sizing: border-box;
-}
+  
     :root {
       --paragraph-primary-color: #434455;
       --title-primary-color: #2E2F42;
@@ -66,7 +59,7 @@ ul {
      /* прибираємо чорні точки */
      ul {
       list-style: none;
-    }
+          }
 
     /* стилізуємо лого */
     .logo {
@@ -87,7 +80,7 @@ ul {
 
    
       /* Novigation */
-
+      
     .nav-link {
       color: var(--title-primary-color);
       font-weight: 600;
@@ -174,21 +167,70 @@ background: #2E2F42;
   background: var(--link-hover-color);
   color: var(--background-primary-color);
 }
+
 .portfolio-filter-bnt {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
   color: #4D5AE5;
   background-color: #f4f4fd;
   font-family: 'Roboto';
   
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
 
 }
 
 .portfolio-link {
   text-decoration: none;
+}
+
+/* друга тема */
+.nav-list {
+  display: flex ;
+}
+
+.nav-list .nav-link {
+  outline: 1px solid red;
+}
+/* робмо відступи в новігації */
+/* снимаем крайнюю геометрию */
+.nav-list .nav-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+/* задаем падинг шапке, раздвиг горизонтально */
+.nav-list .nav-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+/* ставим в ряд контакти*/
+.contacts {
+  display: flex;
+  margin-left: 331px;
+}
+/*разделяем контакт и адрес  */
+.contacts .contacts-item + .contacts-item {
+  margin-left: 40px;
+}
+
+/* ставимо шапку в ряд */
+.nav {
+  display: flex;
+  align-items: center;
+}
+/* задаем контактам поле горизонтальне */
+.contacts .contacts-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+/* робимо відступ від логотипа */
+.nav-list {
+  margin-left: 77px;
 }

@@ -20,6 +20,17 @@
       --background-color-page: #FFFFFF;
     }
 
+    html {
+      box-sizing: border-box;
+    }
+    *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
     .container {
       width: 1230px;
       padding-left: 15px;
@@ -108,13 +119,14 @@ ul {
 
 /* Hero */
 .hero-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
 font-weight: 600;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--background-color-page);
-background: #2E2F42
 }
 
 .hero-btn {
@@ -197,7 +209,7 @@ background: #2E2F42;
   outline: 1px solid red;
 }
 /* робмо відступи в новігації */
-/* снимаем крайнюю геометрию */
+/* прибираємо крайню геометрію*/
 .nav-list .nav-item:not(:last-child) {
   margin-right: 40px;
 }
@@ -233,4 +245,13 @@ background: #2E2F42;
 /* робимо відступ від логотипа */
 .nav-list {
   margin-left: 77px;
+}
+
+
+/* geometry hero */
+.hero {
+  background: var(--nav-link-color);
+  padding: 200px 0;
+  text-align: center;
+  letter-spacing: 0.06em;
 }

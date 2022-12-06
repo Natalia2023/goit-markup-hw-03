@@ -119,50 +119,47 @@ ul {
  
 
 /* Hero */
+.hero {
+  padding: 200px 0;
+  background-color: var(--paragraph-primary-color);
+
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
 .hero-title {
   max-width: 695px;
   margin: 0 auto;
-  margin-bottom: 64px;
+  margin-bottom: 30px;
 
+  color: var(--background-primary-color);
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-transform: uppercase;
-  font-family: 'Roboto';
-
-color: var(--background-color-page);
 }
-/*  */
+
 .hero-btn {
   padding: 10px 32px;
 
- 
+  background-color: var(--brand-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
 
-
+  color: var(--background-primary-color);
 
   font-family: inherit;
   font-weight: 700;
   line-height: 1.88;
-
-  color: var(--background-primary-color);
-  background: var(--brand-color);
-  color: var(--secondary-title-color);
 }
 
-
-/* geometry hero */
-.hero {
-  background: var(--nav-link-color);
-  padding: 200px 0;
-  text-align: center;
-  letter-spacing: 0.06em;
-  width: 1440px;
+.hero-btn:active,
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--contacts-link-color);
 }
-
 
 
 /* Features section */
@@ -342,3 +339,6 @@ background: #2E2F42;
   gap: 30px;
 }
 
+.section {
+  padding: 94px 0;
+}

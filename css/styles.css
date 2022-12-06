@@ -32,7 +32,7 @@
 
 
     .container {
-      width: 1230px;
+      width: 1260px;
       padding-left: 15px;
       padding-right: 15px;
       margin: 0 auto;
@@ -61,6 +61,7 @@ ul {
     body {
         color: var(--paragraph-primary-color);
             letter-spacing: 0.015em;
+            font-size: 18px;
     }
 /* убираем подчеркивание ссилки */
     .no-decoration . {
@@ -119,26 +120,59 @@ ul {
 
 /* Hero */
 .hero-title {
-  margin-top: 0px;
-  margin-bottom: 0px;
-font-weight: 600;
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
+  max-width: 695px;
+  margin: 0 auto;
+  margin-bottom: 64px;
+
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+
 color: var(--background-color-page);
 }
-
+/*  */
 .hero-btn {
-color: var(--background-primary-color);
-background: var(--brand-color);
+  padding: 10px 32px;
 
-font-weight: 600;
-font-size: 16px;
-line-height: 1.19em;
+ 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+
+
+
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.88;
+
+  color: var(--background-primary-color);
+  background: var(--brand-color);
+  color: var(--secondary-title-color);
 }
 
+
+/* geometry hero */
+.hero {
+  background: var(--nav-link-color);
+  padding: 200px 0;
+  text-align: center;
+  letter-spacing: 0.06em;
+  width: 1440px;
+}
+
+
+
 /* Features section */
+.features {
+  padding-bottom: 0;
+  padding: 120px;
+}
+
+
+
 
 .item-title {
   color: var(--title-primary-color);
@@ -146,20 +180,22 @@ line-height: 1.19em;
   font-size: 20px;
   line-height: 1.2em;
   letter-spacing: 0.02em;
+  margin-bottom: 10px;
+  
+
 }
 
 .description {
 font-size: 16px;
 line-height: 1.5em;
 letter-spacing: 0.02em;
+
 }
 
-/*    <!--section works--> */
-.works-link {
-  box-sizing: border-box;
-  width: 360px;
-  height: 300px;
-}
+
+
+
+
 
 .foter-decoration {
 width: 1440px;
@@ -172,6 +208,24 @@ background: #2E2F42;
 .foter-decoration .description {
   color: var(--title-secondary-color);
 }
+
+/* features-list */
+.features-list {
+  display: flex;
+  
+}
+.features-list .features-item {
+  width: 300px;
+
+  
+}
+
+.features-item:not(:last-child) {
+  margin-right: 24px;
+}
+
+
+
 
 /* portfolio */
 .portfolio-filter-bnt:hover,
@@ -248,10 +302,43 @@ background: #2E2F42;
 }
 
 
-/* geometry hero */
-.hero {
-  background: var(--nav-link-color);
-  padding: 200px 0;
-  text-align: center;
-  letter-spacing: 0.06em;
+
+/* ховаємо елемент */
+.container .section-title {
+  display: none;
 }
+
+
+/* worc */
+.section .section-title {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  line-height: 1.17;
+
+}
+
+
+.works-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.works-item:not(:first-child) {
+  margin-left: 30px;
+}
+
+
+/* tiam */
+.team {
+  background-color: var(--background-primary-color);
+}
+
+.team-list {
+  display: flex;
+  gap: 30px;
+}
+

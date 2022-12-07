@@ -31,8 +31,9 @@
 
 
 
+
     .container {
-      width: 1260px;
+      width: 1158px;
       padding-left: 15px;
       padding-right: 15px;
       margin: 0 auto;
@@ -56,7 +57,9 @@ ul {
   padding: 0;
 }
 
-
+img {
+  display: block;
+}
     
     body {
         color: var(--paragraph-primary-color);
@@ -86,9 +89,7 @@ ul {
       text-decoration: none;
     }
 
-    .foter-decoration .akcent {
-      color: var(--title-secondary-color);
-    }
+    
 
    
       /* Novigation */
@@ -190,25 +191,10 @@ letter-spacing: 0.02em;
 }
 
 
-
-
-
-
-.foter-decoration {
-width: 1440px;
-height: 310px;
-left: 0px;
-top: 2283px;
-background: #2E2F42;
-}
-
-.foter-decoration .description {
-  color: var(--title-secondary-color);
-}
-
 /* features-list */
 .features-list {
   display: flex;
+  
   
 }
 .features-list .features-item {
@@ -306,7 +292,7 @@ background: #2E2F42;
 }
 
 
-/* worc */
+/* worcs */
 .section .section-title {
   margin-bottom: 50px;
 
@@ -341,4 +327,24 @@ background: #2E2F42;
 
 .section {
   padding: 94px 0;
+
 }
+
+
+
+/* footer */
+.foter-decoration {
+  width: 1440px;
+  height: 310px;
+  left: 0px;
+  top: 2283px;
+  background: #2E2F42;
+  }
+  
+  .foter-decoration .description {
+    color: var(--title-secondary-color);
+  }
+  .foter-decoration .logos {
+    color: #FFFFFF;
+  }
+

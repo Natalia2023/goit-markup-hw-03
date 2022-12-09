@@ -276,12 +276,12 @@ text-align: center;
 /* Features section*/
 
 .section {
-  padding-bottom: 120px;
+  padding-top: 120px;
 }   
 
 .features-list > .features-item {
-  padding-bottom: 120px;
-  padding-top: 120px;
+  /* padding-bottom: 120px;
+  padding-top: 120px; */
   /* width: 264px; */
   outline: 1px solid rgb(0, 0, 0);
   flex-basis: calc((100% - 72px) / 4);
@@ -298,10 +298,10 @@ text-align: center;
 }
 
 
-.features-list .item-title {
+.features-item .item-title {
  
   margin-bottom: 8px;
-  margin-top: 0px;
+  
 }
 
 .item-title {
@@ -319,7 +319,12 @@ text-align: center;
 }
 
 /* Works section*/
+.section {
 
+  padding-bottom: 120px;
+
+
+}
 .works-list {
   display: flex;
   flex-wrap: wrap;

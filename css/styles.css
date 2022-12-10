@@ -277,13 +277,14 @@ text-align: center;
 
 .section {
   padding-top: 120px;
+  /* padding-bottom: 120px; */
 }   
 
 .features-list > .features-item {
   /* padding-bottom: 120px;
   padding-top: 120px; */
   /* width: 264px; */
-  outline: 1px solid rgb(0, 0, 0);
+  
   flex-basis: calc((100% - 72px) / 4);
 }
 
@@ -319,12 +320,6 @@ text-align: center;
 }
 
 /* Works section*/
-.section {
-
-  padding-bottom: 120px;
-
-
-}
 .works-list {
   display: flex;
   flex-wrap: wrap;
@@ -370,6 +365,7 @@ text-align: center;
 
 .section-team {
   background: #F4F4FD;
+  padding-bottom: 120px;
   /* font-weight: 600px;
   font-size: 36px;
   line-height: 1.1;
@@ -460,6 +456,9 @@ text-align: center;
  
 } 
 
+.portfolio-list .item-decoration {
+  margin-bottom: 8px;
+}
 .portfolio-card {
 padding-top: 32px;
 padding-bottom: 32px;

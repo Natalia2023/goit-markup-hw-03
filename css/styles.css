@@ -281,9 +281,9 @@ text-align: center;
 }   
 
 .features-list > .features-item {
-  /* padding-bottom: 120px;
   padding-top: 120px; */
-  /* width: 264px; */
+
+   width: 264px; 
   
   flex-basis: calc((100% - 72px) / 4);
 }
@@ -386,6 +386,7 @@ text-align: center;
 .section-bnt {
   margin-top: auto;
   padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .portfolio-filter-bnt {
@@ -416,13 +417,13 @@ text-align: center;
   display: flex;
   align-items: center; 
   justify-content: center;
-  margin-bottom: 72px;
+  margin-bottom: 72px;  
   
 
 } 
 
 .portfolio-filter-item {
-  margin-left: 24px;
+    margin-left: 24px;
   
 }
 
